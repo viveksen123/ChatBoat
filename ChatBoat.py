@@ -27,4 +27,4 @@ chat_interface = gr.ChatInterface(fn=chat_with_bot, title="🧠 LangChain ChatBo
 
 # Launch app
 if __name__ == "__main__":
-    chat_interface.launch(share=True)
+    chat_interface.launch(server_name="0.0.0.0", server_port=7860)
